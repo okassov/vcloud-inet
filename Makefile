@@ -7,3 +7,7 @@ go-build:
 go-run:
 	@echo "  >  Running application..."
 	@go run main.go parser.go render.go
+
+go-fmt:
+	@echo "  >  Formatting code..."
+	@go fmt ./*.go
